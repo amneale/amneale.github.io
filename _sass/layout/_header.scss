@@ -1,0 +1,46 @@
+.navbar-brand {
+    height: auto;
+}
+
+.navbar {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.navbar-default {
+    .navbar-nav {
+        font-size: 16px;
+
+        >li {
+            >a {
+                background: none !important;
+                color: #ffffff !important;
+            }
+            &.active a,
+            >a:focus,
+            >a:hover
+            {
+            }
+        }
+    }
+
+    .site-title{
+        margin-top: 10px;
+        font-weight: 300;
+
+        a {
+            color: #ffffff;
+            &:focus,
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    &.navbar-condensed {
+        .site-description {
+            display: none;
+        }
+    }
+}

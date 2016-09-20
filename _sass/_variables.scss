@@ -1,0 +1,43 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+$sidebar-lg-columns:    3;
+$sidebar-sm-offset:     1;
+
+// Fonts
+$font-family-base: 'Open Sans', sans-serif;
+
+// Colors
+$brand-primary:          #006699;
+$brand-primary-light:    #7fb2cc;
+$brand-primary-lighter:  #bfd8e5;
+$brand-primary-lightest: #e5eff4;
+$brand-primary-dark:     #005682;
+$brand-primary-darker:   #004c72;
+$brand-primary-darkest:  #00334c;
+
+$gray-light: #d9d9d9;
+
+// Decoration
+$site-title-hover-decoration: none;
+
+// Border
+$page-header-border-color: $gray-light;
+$brand-border: 1px solid $gray-light;
+
+// Inputs
+$input-border-radius: 0;
+
+// Navbar
+$navbar-default-bg: $brand-primary;
+$navbar-default-border: $brand-primary-dark;
+$navbar-default-toggle-hover-bg:     $brand-primary-dark;
+$navbar-default-toggle-icon-bar-bg:  $brand-primary-lightest;
+$navbar-default-toggle-border-color: transparent;
+
+
+// Padding
+$padding-base-horizontal: 11px;
