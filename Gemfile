@@ -15,6 +15,6 @@ gem "jekyll", "3.2.1"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
-group :jekyll_plugins do
-    gem 'jekyll-bootstrap-sass'
-end
+#group :jekyll_plugins do
+#    gem 'jekyll-bootstrap-sass'
+#end
