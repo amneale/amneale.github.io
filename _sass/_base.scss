@@ -1,3 +1,13 @@
 body {
     font-family: $font-family-base;
 }
+
+pre, .well {
+    border-color: #e8e8e8;
+    border-radius: 0;
+    word-wrap: normal;
+}
+
+pre {
+    border-left-width: 1em;
+}

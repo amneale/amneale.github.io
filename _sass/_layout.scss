@@ -7,6 +7,13 @@ body {
 
 .page-content {
     flex: 1;
+    max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
 }
 
 @import 'layout/header';

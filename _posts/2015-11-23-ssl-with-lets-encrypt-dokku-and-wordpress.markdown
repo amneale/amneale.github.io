@@ -12,7 +12,9 @@ These days more and more web traffic is switching to HTTPS. What was once used o
 
 ## Let's Encrypt & Dokku
 
-<div class="well">**Dokku now have an official letsencrypt plugin [https://github.com/dokku/dokku-letsencrypt](https://github.com/dokku/dokku-letsencrypt) which will handle certificate generation, linking and renewal for you.**</div>
+<div class="well" markdown="span">
+**Dokku now have an official letsencrypt plugin [https://github.com/dokku/dokku-letsencrypt](https://github.com/dokku/dokku-letsencrypt) which will handle certificate generation, linking and renewal for you.**
+</div>
 
 ### Generating certificates
 
