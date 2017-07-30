@@ -1,0 +1,10 @@
+{% if site.data.certifications %}
+    <section id="certifications" class="cv-section">
+        <h3>Certifications</h3>
+        <ul>
+            {% for certification in site.data.certifications %}
+                <li>{{ certification }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}

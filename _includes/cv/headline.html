@@ -1,0 +1,45 @@
+<div id="headline">
+    {% if page.headline_image %}
+        <div class="avatar">
+            <div class="circle" style="background-image: url({{ page.headline_image }})"></div>
+        </div>
+    {% endif %}
+    <div class="clearfix">
+        <div class="name">
+            <h1>{{ page.headline_name }}</h1>
+            <h2>{{ page.headline_title }}</h2>
+        </div>
+        <ul class="contact">
+            {% if page.headline_location %}
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    <span>{{ page.headline_location }}</span>
+                </li>
+            {% endif %}
+            {% if page.headline_number %}
+                <li>
+                    <i class="fa fa-phone"></i>
+                    <span>{{ page.headline_number }}</span>
+                </li>
+            {% endif %}
+            {% if page.headline_email %}
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:{{ page.headline_email }}">{{ page.headline_email }}</a>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+    <div class="summary">
+        <p>
+            Experienced Software Engineer with a demonstrated history of working in the financial services industry.
+            Passionate about learning new technologies, skilled in object-oriented PHP, and test driven development.
+            Strong collaborator used to working in Agile environments.
+        </p>
+        <p>
+            Most recently worked with Symfony 3 and Zend Framework, utilising Domain-driven design combined with
+            Behaviour-driven and Test-driven development while adhering to SOLID principles,
+            in order to write testable, readable and maintainable code.
+        </p>
+    </div>
+</div>

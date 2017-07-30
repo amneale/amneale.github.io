@@ -1,0 +1,74 @@
+#cv {
+    border: 1px solid $gray-light;
+    box-shadow: 5px 5px 5px $gray-lighter;
+    padding: 20px 50px;
+    margin: 20px 0;
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+    }
+
+    section {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid $gray-light;
+    }
+
+    #headline {
+        .avatar {
+            text-align: center;
+
+            .circle {
+                border: 2px solid #ffffff;
+                box-shadow: 0 0 2px 2px $gray-light;
+                display: inline-block;
+                border-radius: 120px;
+                height: 120px;
+                width: 120px;
+                background-size: 116px;
+            }
+        }
+
+        .name {
+            float: left;
+            h2 {
+                font-weight: lighter;
+            }
+        }
+
+        ul.contact {
+            list-style: none;
+            padding: 0;
+            float: right;
+
+            i {
+                color: $gray-dark;
+                width: 20px;
+            }
+        }
+
+        .summary {
+            margin: 20px 0;
+        }
+    }
+
+    #experience,
+    #education {
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li.history-item {
+                margin: 20px 0;
+            }
+        }
+
+        .title {
+            float: left;
+        }
+        .term {
+            float: right;
+        }
+    }
+}
+

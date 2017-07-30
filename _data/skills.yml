@@ -1,0 +1,22 @@
+- type: Programming Languages
+  skills:
+    - PHP
+    - JavaScript
+- type: Frameworks
+  skills:
+    - Zend Framework 1
+    - Symfony 2/3
+- type: Testing
+  skills:
+    - PHPUnit
+    - PHPSpec
+    - Behat
+- type: Other
+  skills:
+    - Git
+    - Vagrant
+    - Ansible
+    - Docker
+    - HTML5
+    - CSS3
+    - MySQL

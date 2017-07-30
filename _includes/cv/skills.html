@@ -1,0 +1,11 @@
+<section id="skills" class="cv-section">
+    <h3>Key Skills</h3>
+    <ul>
+        {% for skillset in site.data.skills %}
+            <li>
+                <strong>{{ skillset.type }}:</strong>
+                {{ skillset.skills | join: ', ' }}
+            </li>
+        {% endfor %}
+    </ul>
+</section>

@@ -1,0 +1,25 @@
+<section id="education" class="cv-section">
+    <h3>Education</h3>
+    <ul>
+        {% for education in site.data.education %}
+            <li class="history-item">
+                <ul>
+                    <li class="clearfix">
+                        <h4 class="title">
+                            <strong>{{ education.title }}</strong>
+                        </h4>
+                        <div class="term">
+                            {{ education.start_date }} &mdash; {{ education.end_date }}
+                        </div>
+                    </li>
+                    <li>
+                        <h4>{{ education.establishment }}</h4>
+                    </li>
+                    {% if education.summary %}
+                        <li>{{ education.summary }}</li>
+                    {% endif %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</section>

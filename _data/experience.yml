@@ -1,0 +1,32 @@
+- company: World First
+  position:
+    - title: Senior Software Developer
+      start_date: September 2016
+      end_date: Present
+    - title: Software Developer
+      start_date: April 2014
+      end_date: September 2016
+  summary: |
+    <p>Worked chiefly on the company's online trading platform, facilitating foreign exchange around the world.
+     Heavily involved with decoupling the business logic driving the application from the implementation,
+     allowing migration from Zend Framework 1 towards Symfony 3 while increasing test coverage of the application.</p>
+    <p>Also involved with moving towards a more service based approach, breaking out functionality that lies outside
+     of the core domain of the trading application to smaller more focused services,
+     and providing APIs from these for existing applications.</p>
+    <p>Worked closely with Project Managers and Business Analysts to aid in defining business requirements,
+     advising on technical solutions while minimising technical risk.</p>
+- company: Memiah
+  position:
+    - title: Web Developer
+      start_date: July 2011
+      end_date: April 2014
+  summary: |
+    <p>Maintained and reskinned several existing core directory websites.</p>
+    <p>Created new link building application internally for the marketing team.</p>
+    <p>Built qualification checking and management tool, and in-depth profile statistics dashboard.</p>
+- company: Self-employed
+  position:
+    - title: Freelance Web Developer
+      start_date: June 2010
+      end_date: July 2011
+  summary: Built several small company websites to spec, integrating with WordPress and custom CMS solutions

@@ -1,0 +1,27 @@
+<section id="experience" class="cv-section">
+    <h3>Work History</h3>
+    <ul>
+        {% for experience in site.data.experience %}
+            <li class="history-item">
+                <ul>
+                    {% for position in experience.position %}
+                        <li class="clearfix">
+                            <h4 class="title">
+                                <strong>{{ position.title }}</strong>
+                            </h4>
+                            <div class="term">
+                                {{ position.start_date }} &mdash; {{ position.end_date }}
+                            </div>
+                        </li>
+                    {% endfor %}
+                    <li>
+                        <h4>{{ experience.company }}</h4>
+                    </li>
+                    {% if experience.summary %}
+                        <li>{{ experience.summary }}</li>
+                    {% endif %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
