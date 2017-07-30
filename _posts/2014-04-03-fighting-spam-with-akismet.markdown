@@ -4,7 +4,7 @@ title: "Fighting spam with Akismet"
 date: 2014-04-03 12:00:00 +0000
 categories: wordpress akismet
 ---
-Over the last few weeks it appears some nefarious individuals have located my website and added me to their database of people to inundate with emails about suspicious sounding pills. Now that my medicine cabinet is fully stocked, I decided it was time to put a stop to further spam clogging up my inbox. Wordpress comes packaged with the Akismet plugin which is set up to check comment submissions, however I wang it to also check any messages sent via my own contact form, so a little more digging is required.
+Over the last few weeks it appears some nefarious individuals have located my website and added me to their database of people to inundate with emails about suspicious sounding pills. Now that my medicine cabinet is fully stocked, I decided it was time to put a stop to further spam clogging up my inbox. Wordpress comes packaged with the Akismet plugin which is set up to check comment submissions, however I want it to also check any messages sent via my own contact form, so a little more digging is required.
 
 ## Register with Akismet
 
@@ -12,7 +12,7 @@ Firstly, to get any functionality from the Akismet plugin you will need an API k
 
 ### Setting up the Akismet plugin
 
-Now that you've got your key, you'll need to make sure the Akismet plugin is enabled in your list of plugins. If it is you will be able to navigate through to the settings page and enter your key. By should now see some default settings along with server connectivity reporting. Once this is all set up we're good to crack on with the code itself.
+Now that you've got your key, you'll need to make sure the Akismet plugin is enabled in your list of plugins. If it is you will be able to navigate through to the settings page and enter your key. By now you should see some default settings along with server connectivity reporting. Once this is all set up we're good to crack on with the code itself.
 
 ### Catching the spam
 

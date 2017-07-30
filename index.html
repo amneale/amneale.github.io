@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="home">
     {% for post in site.posts %}
-    <article>
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
-            <h2 class="post-title" itemprop="name headline">
+            <h1 class="post-title" itemprop="name headline">
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-            </h2>
+            </h1>
             <p class="post-meta">
                 <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
                     {{ post.date | date: "%B %-d, %Y" }}
@@ -19,7 +19,10 @@ layout: default
                 {% endif %}
             </p>
         </header>
-        <div class="summary">{{ post.excerpt }}</div>
+
+        <div class="post-content" itemprop="articleBody">
+            {{ post.excerpt }}
+        </div>
     </article>
     {% endfor %}
     <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

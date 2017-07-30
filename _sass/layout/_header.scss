@@ -12,38 +12,16 @@
     background-color: $brand-primary;
     border-color: $brand-primary-dark;
 
-    .navbar-nav {
-        font-size: 16px;
-
-        >li {
-            >a {
-                background: none !important;
-                color: #ffffff !important;
-            }
-            &.active a,
-            >a:focus,
-            >a:hover
-            {
-            }
-        }
-    }
-
     .site-title{
         margin-top: 10px;
         font-weight: 300;
 
         a {
-            color: #ffffff;
+            color: $brand-copy;
             &:focus,
             &:hover {
                 text-decoration: none;
             }
-        }
-    }
-
-    &.navbar-condensed {
-        .site-description {
-            display: none;
         }
     }
 }
