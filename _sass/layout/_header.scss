@@ -6,11 +6,41 @@
     border-left: none;
     border-right: none;
     border-top: none;
+    margin-bottom: 30px;
 }
 
 .navbar-default {
     background-color: $brand-primary;
-    border-color: $brand-primary-dark;
+
+    &, .navbar-collapse {
+        border-color: $brand-primary-dark;
+    }
+
+    .navbar-nav {
+        font-size: 16px;
+        > li {
+            > a {
+                background: none;
+                color: $brand-primary-light;
+                font-weight: lighter;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                &:hover,
+                &:focus {
+                    color: $brand-copy;
+                }
+            }
+            &.active > a {
+                background: $brand-primary-dark;
+                color: $brand-primary-light;
+                &:hover,
+                &:focus {
+                    background: $brand-primary-dark;
+                    color: $brand-copy;
+                }
+            }
+        }
+    }
 
     .site-title{
         margin-top: 10px;
@@ -21,6 +51,23 @@
             &:focus,
             &:hover {
                 text-decoration: none;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        border: 0;
+
+        .icon-bar {
+            background-color: $brand-primary-light;
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            background: none;
+            .icon-bar {
+                background-color: $brand-copy;
             }
         }
     }
