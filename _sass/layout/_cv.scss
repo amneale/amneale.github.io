@@ -16,8 +16,6 @@
 
     #headline {
         .avatar {
-            text-align: center;
-
             .circle {
                 border: 2px solid #ffffff;
                 box-shadow: 0 0 2px 2px $gray-light;
@@ -30,7 +28,6 @@
         }
 
         .name {
-            float: left;
             h2 {
                 font-weight: lighter;
             }
@@ -39,7 +36,6 @@
         ul.contact {
             list-style: none;
             padding: 0;
-            float: right;
 
             i {
                 color: $gray-dark;
@@ -62,13 +58,5 @@
                 margin: 20px 0;
             }
         }
-
-        .title {
-            float: left;
-        }
-        .term {
-            float: right;
-        }
     }
 }
-

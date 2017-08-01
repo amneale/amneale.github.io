@@ -1,15 +1,15 @@
 <div id="headline">
     {% if page.headline_image %}
-        <div class="avatar">
+        <div class="avatar text-center mb-10">
             <div class="circle" style="background-image: url({{ page.headline_image }})"></div>
         </div>
     {% endif %}
     <div class="clearfix">
-        <div class="name">
+        <div class="name  text-center pull-left-sm text-left-sm">
             <h1>{{ page.headline_name }}</h1>
             <h2>{{ page.headline_title }}</h2>
         </div>
-        <ul class="contact">
+        <ul class="contact text-center pull-right-sm text-left-sm">
             {% if page.headline_location %}
                 <li>
                     <i class="fa fa-map-marker"></i>

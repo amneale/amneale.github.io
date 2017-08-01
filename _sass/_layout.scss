@@ -10,6 +10,25 @@ body {
     max-width: 100%;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .pull-left-sm {
+        float: left;
+    }
+    .pull-right-sm {
+        float: right;
+    }
+    .text-left-sm {
+        text-align: left;
+    }
+    .mb-sm-0 {
+        margin-bottom: 0;
+    }
+}
+
 @media (min-width: 1200px) {
     .container {
         width: 970px;
