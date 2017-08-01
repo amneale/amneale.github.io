@@ -36,11 +36,6 @@
         ul.contact {
             list-style: none;
             padding: 0;
-
-            i {
-                color: $gray-dark;
-                width: 20px;
-            }
         }
 
         .summary {
@@ -56,6 +51,30 @@
 
             li.history-item {
                 margin: 20px 0;
+            }
+        }
+    }
+
+    i {
+        color: $gray-dark;
+        width: 20px;
+    }
+}
+
+@media print {
+    @page{
+        margin-top: 20px;
+    }
+
+    #cv {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+
+        .contact {
+            a:link:after, a:visited:after {
+                content: "";
             }
         }
     }

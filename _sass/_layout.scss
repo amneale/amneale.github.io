@@ -14,25 +14,25 @@ body {
     margin-bottom: 10px;
 }
 
-@media (min-width: 768px) {
-    .pull-left-sm {
-        float: left;
-    }
-    .pull-right-sm {
-        float: right;
-    }
-    .text-left-sm {
-        text-align: left;
-    }
-    .mb-sm-0 {
-        margin-bottom: 0;
-    }
+@media print, (min-width: 768px) {
+    .pull-left-sm { float: left; }
+    .pull-right-sm { float: right; }
+
+    .text-left-sm { text-align: left; }
+
+    .mb-sm-0 { margin-bottom: 0; }
+
+    .absolute-sm { position: absolute; }
 }
 
 @media (min-width: 1200px) {
     .container {
         width: 970px;
     }
+}
+
+@media print {
+    .no-print { display: none; }
 }
 
 @import 'layout/header';

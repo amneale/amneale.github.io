@@ -1,6 +1,11 @@
 <div id="headline">
+    <div class="no-print absolute-sm mb-10">
+        <a href="javascript:window.print();">
+            <i class="fa fa-print"></i>Print
+        </a>
+    </div>
     {% if page.headline_image %}
-        <div class="avatar text-center mb-10">
+        <div class="avatar text-center mb-10 no-print">
             <div class="circle" style="background-image: url({{ page.headline_image }})"></div>
         </div>
     {% endif %}
@@ -12,20 +17,17 @@
         <ul class="contact text-center pull-right-sm text-left-sm">
             {% if page.headline_location %}
                 <li>
-                    <i class="fa fa-map-marker"></i>
-                    <span>{{ page.headline_location }}</span>
+                    <i class="fa fa-map-marker"></i>{{ page.headline_location }}
                 </li>
             {% endif %}
             {% if page.headline_number %}
                 <li>
-                    <i class="fa fa-phone"></i>
-                    <span>{{ page.headline_number }}</span>
+                    <i class="fa fa-phone"></i><span>{{ page.headline_number }}
                 </li>
             {% endif %}
             {% if page.headline_email %}
                 <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:{{ page.headline_email }}">{{ page.headline_email }}</a>
+                    <i class="fa fa-envelope"></i><a href="mailto:{{ page.headline_email }}">{{ page.headline_email }}</a>
                 </li>
             {% endif %}
         </ul>
