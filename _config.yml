@@ -6,6 +6,9 @@ url: ""
 twitter_username: amneale
 github_username: amneale
 linkedin_username: amneale
+permalink: /:title
+
+google_analytics: UA-19384655-2
 
 # Build settings
 markdown: kramdown
