@@ -1,8 +1,8 @@
 title: adam-neale.co.uk
 email: adam@adam-neale.co.uk
-description: ""
+description: "The blog of Adam Neale about the web and other technology"
 baseurl: ""
-url: ""
+url: "https://adam-neale.co.uk"
 twitter_username: amneale
 github_username: amneale
 linkedin_username: amneale
@@ -17,3 +17,6 @@ sass:
   load_paths:
     - _sass
   style: compressed
+
+gems:
+  - jekyll-sitemap
