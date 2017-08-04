@@ -3,6 +3,7 @@ layout: post
 title: "Fighting spam with Akismet"
 date: 2014-04-03 12:00:00 +0000
 categories: wordpress akismet
+redirect_from: fighting-spam/
 ---
 Over the last few weeks it appears some nefarious individuals have located my website and added me to their database of people to inundate with emails about suspicious sounding pills. Now that my medicine cabinet is fully stocked, I decided it was time to put a stop to further spam clogging up my inbox. Wordpress comes packaged with the Akismet plugin which is set up to check comment submissions, however I want it to also check any messages sent via my own contact form, so a little more digging is required.
 

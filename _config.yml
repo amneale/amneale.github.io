@@ -6,7 +6,7 @@ url: "https://adam-neale.co.uk"
 twitter_username: amneale
 github_username: amneale
 linkedin_username: amneale
-permalink: /:title
+permalink: /:title/
 
 google_analytics: UA-19384655-2
 
@@ -20,3 +20,4 @@ sass:
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
