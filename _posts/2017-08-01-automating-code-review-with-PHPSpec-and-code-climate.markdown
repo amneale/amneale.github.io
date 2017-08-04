@@ -38,7 +38,8 @@ Now the next time you run your PHPSpec tests coverage reports will automatically
 Once this is done, we need to start analysing our code with every push. You will need to set up a (free) account with both [Travis CI](https://travis-ci.org) and [Code Climate](https://codeclimate.com/).
 
 <div class="well" markdown="span">
-**You must get your Test Reporter ID from Code Climate and save it as an environment variable in Travis CI, with the key `CC_TEST_REPORTER_ID`.**
+**You must get your Test Reporter ID from Code Climate and save it as an environment variable in Travis CI, with the key `CC_TEST_REPORTER_ID`.
+You should also make sure that you are using namespaces in your code, otherwise Code Climate may not detect coverage correctly.**
 </div>
 
 Thanks to these services being integrated with github, as soon as you have signed up you can enable your github repository (on Travis CI **and** Code Climate). Now before your push there are a couple of final steps.
