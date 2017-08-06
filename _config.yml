@@ -3,6 +3,7 @@ email: adam@adam-neale.co.uk
 description: "The blog of Adam Neale about the web and other technology"
 baseurl: ""
 url: "https://adam-neale.co.uk"
+author: amneale
 twitter_username: amneale
 github_username: amneale
 linkedin_username: amneale
@@ -21,3 +22,5 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-avatar
+  - jekyll-feed

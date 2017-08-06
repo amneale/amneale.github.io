@@ -1,27 +1,29 @@
-<section id="experience" class="cv-section">
-    <h3>Work History</h3>
-    <ul>
-        {% for experience in site.data.experience %}
-            <li class="history-item">
-                <ul>
-                    {% for position in experience.position %}
-                        <li class="clearfix mb-10 mb-sm-0">
-                            <h4 class="pull-left-sm">
-                                <strong>{{ position.title }}</strong>
-                            </h4>
-                            <div class="pull-right-sm">
-                                {{ position.start_date }} &mdash; {{ position.end_date }}
-                            </div>
+{% if site.data.cv.experience %}
+    <section id="experience" class="cv-section">
+        <h3>Work History</h3>
+        <ul>
+            {% for experience in site.data.cv.experience %}
+                <li class="history-item">
+                    <ul>
+                        {% for position in experience.position %}
+                            <li class="clearfix mb-10 mb-sm-0">
+                                <h4 class="pull-left-sm">
+                                    <strong>{{ position.title }}</strong>
+                                </h4>
+                                <div class="pull-right-sm">
+                                    {{ position.start_date }} &mdash; {{ position.end_date }}
+                                </div>
+                            </li>
+                        {% endfor %}
+                        <li>
+                            <h4>{{ experience.company }}</h4>
                         </li>
-                    {% endfor %}
-                    <li>
-                        <h4>{{ experience.company }}</h4>
-                    </li>
-                    {% if experience.summary %}
-                        <li>{{ experience.summary }}</li>
-                    {% endif %}
-                </ul>
-            </li>
-        {% endfor %}
-    </ul>
-</section>
+                        {% if experience.summary %}
+                            <li>{{ experience.summary }}</li>
+                        {% endif %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}

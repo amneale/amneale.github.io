@@ -4,9 +4,11 @@
             <i class="fa fa-print"></i>Print
         </a>
     </div>
-    {% if page.headline_image %}
+    {% if site.github_username %}
         <div class="avatar text-center mb-10 no-print">
-            <div class="circle" style="background-image: url({{ page.headline_image }})"></div>
+            <div class="circle">
+                {% avatar {{ site.github_username }} size=116 %}
+            </div>
         </div>
     {% endif %}
     <div class="clearfix">
@@ -15,33 +17,26 @@
             <h2>{{ page.headline_title }}</h2>
         </div>
         <ul class="contact text-center pull-right-sm text-left-sm">
-            {% if page.headline_location %}
+            {% if page.location %}
                 <li>
-                    <i class="fa fa-map-marker"></i>{{ page.headline_location }}
+                    <i class="fa fa-map-marker"></i>{{ page.location }}
                 </li>
             {% endif %}
-            {% if page.headline_number %}
+            {% if page.number %}
                 <li>
-                    <i class="fa fa-phone"></i><span>{{ page.headline_number }}
+                    <i class="fa fa-phone"></i><span>{{ page.number }}
                 </li>
             {% endif %}
-            {% if page.headline_email %}
+            {% if page.email %}
                 <li>
-                    <i class="fa fa-envelope"></i><a href="mailto:{{ page.headline_email }}">{{ page.headline_email }}</a>
+                    <i class="fa fa-envelope"></i><a href="mailto:{{ page.email }}">{{ page.email }}</a>
                 </li>
             {% endif %}
         </ul>
     </div>
-    <div class="summary">
-        <p>
-            Experienced Software Engineer with a demonstrated history of working in the financial services industry.
-            Passionate about learning new technologies, skilled in object-oriented PHP, and test driven development.
-            Strong collaborator used to working in Agile environments.
-        </p>
-        <p>
-            Most recently worked with Symfony 3 and Zend Framework, utilising Domain-driven design combined with
-            Behaviour-driven and Test-driven development while adhering to SOLID principles,
-            in order to write testable, readable and maintainable code.
-        </p>
-    </div>
+    {% if page.summary %}
+        <div class="summary">
+            {{ page.summary }}
+        </div>
+    {% endif %}
 </div>

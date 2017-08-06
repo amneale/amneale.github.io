@@ -1,8 +1,8 @@
-{% if site.data.certifications %}
+{% if site.data.cv.certifications %}
     <section id="certifications" class="cv-section">
         <h3>Certifications</h3>
         <ul>
-            {% for certification in site.data.certifications %}
+            {% for certification in site.data.cv.certifications %}
                 <li>{{ certification }}</li>
             {% endfor %}
         </ul>
