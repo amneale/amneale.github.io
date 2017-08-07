@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: default
 headline_name: Adam Neale
 headline_title: Software Developer
 location: London, UK
@@ -17,3 +17,10 @@ summary: |
         in order to write testable, readable and maintainable code.
     </p>
 ---
+<div id="cv">
+    {% include cv/headline.html %}
+    {% include cv/skills.html %}
+    {% include cv/experience.html %}
+    {% include cv/education.html %}
+    {% include cv/certifications.html %}
+</div>

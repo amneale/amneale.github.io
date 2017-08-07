@@ -1,0 +1,8 @@
+.post-meta {
+    > div {
+        margin: 0 0 5px;
+        &:last-child {
+            margin: 0;
+        }
+    }
+}

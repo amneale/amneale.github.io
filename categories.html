@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<h1>Categories</h1>
+<div>
+    <i class="fa fa-folder-open"></i>
+    <ul class="categories">
+        {% for category in site.categories %}
+            <li>
+                <a href="#{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+<hr />
+<div class="tags-expo-section">
+    {% for category in site.categories %}
+        <h2 id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
+        <ul class="tags-expo-posts">
+            {% for post in category[1] %}
+                <li>
+                    <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                    <small class="post-date">{{ post.date | date_to_string }}</small>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</div>

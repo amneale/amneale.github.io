@@ -2,7 +2,7 @@
 layout: post
 title: "Deploying WordPress with Dokku"
 date: 2015-11-23 12:00:00 +0000
-categories: wordpress dokku
+categories: wordpress deployment
 ---
 I've briefly mentioned [Dokku](http://progrium.viewdocs.io/dokku/) before. Without going into too much detail, Dokku is a platform (built on [Docker](https://www.docker.com/), and based on [Heroku](https://www.heroku.com/)), that allows users to develop and deploy web applications without the normal infrastructure management associated with doing so. This simplicity is something I'd like for managing my WordPress blog. Deploying a dokku app can be as simple as pushing an application via Git to your server, and apps can be written in a multitude of languages: PHP, Ruby, Python, and NodeJs are just a few popular examples. My host, [DigitalOcean](https://www.digitalocean.com/?refcode=2911d9659912), offer a prebuilt Dokku image on Ubuntu 14.04 so little configuration is necessary on the server side of things.
 

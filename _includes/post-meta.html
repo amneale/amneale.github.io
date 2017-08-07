@@ -1,0 +1,33 @@
+<div class="post-meta">
+    <hr />
+    <div>
+        <i class="fa fa-calendar"></i>
+        Posted on
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ page.date | date: "%B %-d, %Y" }}
+        </time>
+        {% if page.author %}
+            {% assign author = site.data.authors.[page.author] %}
+        {% elsif site.author %}
+            {% assign author = site.data.authors.[site.author] %}
+        {% endif %}
+        {% if author %}
+            by
+            <span itemprop="author" itemtype="http://schema.org/Person">
+                <span itemprop="name">{{ author.name }}</span>
+            </span>
+        {% endif %}
+    </div>
+    {% if page.categories %}
+        <div>
+            <i class="fa fa-folder-open"></i>
+            <ul class="categories">
+                {% for category in page.categories %}
+                    <li>
+                        <a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+</div>

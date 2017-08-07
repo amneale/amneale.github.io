@@ -8,18 +8,7 @@ layout: default
                 <h1 class="post-title" itemprop="name headline">
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                 </h1>
-                <p class="post-meta">
-                    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {{ post.date | date: "%B %-d, %Y" }}
-                    </time>
-                    {% if post.author %}
-                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                            <span itemprop="name">{{ post.author }}</span>
-                        </span>
-                    {% endif %}
-                </p>
             </header>
-
             <div class="post-content" itemprop="articleBody">
                 {{ post.excerpt }}
             </div>

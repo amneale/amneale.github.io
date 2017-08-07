@@ -25,3 +25,13 @@ article {
         margin-top: 30px;
     }
 }
+
+i {
+    color: $gray-dark;
+    width: 20px;
+}
+
+hr {
+    border-top: 2px solid $gray-light;
+    margin: 20px 0;
+}
