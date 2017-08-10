@@ -12,10 +12,7 @@
             {% assign author = site.data.authors.[site.author] %}
         {% endif %}
         {% if author %}
-            by
-            <span itemprop="author" itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ author.name }}</span>
-            </span>
+            by {{ author.name }}
         {% endif %}
     </div>
     {% if page.categories %}
