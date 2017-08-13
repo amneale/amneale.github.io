@@ -42,7 +42,7 @@ Once this is done, we need to start analysing our code with every push. You will
 You should also make sure that you are using namespaces in your code, otherwise Code Climate may not detect coverage correctly.**
 </div>
 
-Thanks to these services being integrated with github, as soon as you have signed up you can enable your github repository (on Travis CI **and** Code Climate). Now before your push there are a couple of final steps.
+Thanks to these services being integrated with github, as soon as you have signed up you can enable your github repository (on Travis CI *and* Code Climate). Now before your push there are a couple of final steps.
 
 ### Travis configuration
 Below is the travis config I'm using on my project - it's worth reading up on how to further [customise your build](https://docs.travis-ci.com/user/customizing-the-build/) but this should work for what we want currently.
