@@ -1,24 +1,24 @@
 ---
 layout: default
-description: Blog categories for adam-neale.co.uk
+description: Blog tags for adam-neale.co.uk
 ---
-{% assign categories = site.categories | sort %}
-<h1>Categories</h1>
+{% assign tags = site.tags | sort %}
+<h1>Tags</h1>
 <div>
     <ul class="tags">
-        {% for category in categories %}
+        {% for tag in tags %}
             <li>
-                <a href="#{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a>
+                <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
             </li>
         {% endfor %}
     </ul>
 </div>
 <hr />
 <div class="tags-expo-section">
-    {% for category in categories %}
-        <h2 id="{{ category[0] | slugify }}">{{ category[0] | capitalize }}</h2>
+    {% for tag in tags %}
+        <h2 id="{{ tag[0] | slugify }}">{{ tag[0] | capitalize | replace: '-', ' ' }}</h2>
         <ul class="tags-expo-posts">
-            {% for post in category[1] %}
+            {% for post in tag[1] %}
                 <li>
                     <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
                         {{ post.title }}

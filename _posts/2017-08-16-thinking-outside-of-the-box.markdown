@@ -3,6 +3,7 @@ layout: post
 title: "Thinking outside of the box"
 date: 2017-08-16 12:00:00 +0000
 categories: design
+tags: css flexbox flex
 ---
 A couple of years ago I gave a presentation about the 'new kid on the block' when it comes to web design layouts - flexbox.
 The principles within remain valid, and useful, when understanding how flexbox works, and why it is useful to know about it.

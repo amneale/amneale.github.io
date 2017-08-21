@@ -2,7 +2,8 @@
 layout: post
 title: "SSL with Let’s Encrypt, Dokku, and WordPress"
 date: 2015-11-25 12:00:00 +0000
-categories: wordpress deployment
+categories: devops
+tags: ssl lets-encrypt dokku wordpress nginx
 ---
 These days more and more web traffic is switching to HTTPS. What was once used only for 'secure' websites where a user would input sensitive data has become more widespread. As well as protecting user data from man-in-the-middle attacks, it has started gaining recognition and therefore trust from users as online security information grows. Crucially, Google use it as a [ranking signal](http://googlewebmastercentral.blogspot.co.uk/2014/08/https-as-ranking-signal.html), and as a result we see a lot more website switching to HTTPS by default. Historically switching to HTTPS has historically been a costly process - in time, money, and sanity - but as demand has grown, so too have free solutions.
 

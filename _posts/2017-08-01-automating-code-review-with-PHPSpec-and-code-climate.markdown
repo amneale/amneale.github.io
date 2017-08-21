@@ -2,7 +2,8 @@
 layout: post
 title: "Automating code review with PHPSpec and Code Climate"
 date: 2017-08-01 12:00:00 +0000
-categories: testing
+categories: devops
+tags: phpspec code-climate testing continuous-integration
 ---
 With Continuous Integration (CI) practices becoming more widely adopted, and the number of tools to support them becoming more widespread and available, verifying and analysing check-ins is an important tool in any developers belt.
 In this post I'm going to briefly outline how to get started with a basic PHPSpec + CI setup, using tools that are all free for a publicly hosted github repository. The code used in all of the following examples is hosted as a project over on [github](https://github.com/amneale/phpspec-adder).
