@@ -211,6 +211,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-avatar
+  jekyll-feed
+  jekyll-redirect-from
+  jekyll-sitemap
 
 RUBY VERSION
    ruby 2.4.1p111
