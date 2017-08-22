@@ -22,7 +22,7 @@ sass:
     - _sass
   style: compressed
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-avatar
