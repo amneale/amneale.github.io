@@ -1,0 +1,34 @@
+aside > ul.tags {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+
+        a {
+            border: 1px solid $gray-lighter;
+            display: inline-block;
+            padding: 3px 5px;
+            margin: 2px 0;
+
+            &:hover, &:active {
+                background: $gray-lightest;
+                border-color: $gray-light;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+aside > ul:not(.tags) {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        border-bottom: 1px solid $gray-lighter;
+        padding: 5px 0;
+    }
+}

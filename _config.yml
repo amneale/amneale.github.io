@@ -12,7 +12,6 @@ google_analytics: UA-19384655-2
 # Build settings
 markdown: kramdown
 permalink: /:title/
-include: ["_pages"]
 collections:
   pages:
     output: true

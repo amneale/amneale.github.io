@@ -1,31 +1,19 @@
 ---
-layout: default
+layout: with-sidebar
 description: Blog categories for adam-neale.co.uk
 ---
 {% assign categories = site.categories | sort %}
 <h1>Categories</h1>
-<div>
-    <ul class="tags">
-        {% for category in categories %}
+{% for category in categories %}
+    <h3 id="{{ category[0] | slugify }}">{{ category[0] | capitalize }}</h3>
+    <ul>
+        {% for post in category[1] %}
             <li>
-                <a href="#{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a>
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+                </a>
+                <small>{{ post.date | date_to_string }}</small>
             </li>
         {% endfor %}
     </ul>
-</div>
-<hr />
-<div class="tags-expo-section">
-    {% for category in categories %}
-        <h2 id="{{ category[0] | slugify }}">{{ category[0] | capitalize }}</h2>
-        <ul class="tags-expo-posts">
-            {% for post in category[1] %}
-                <li>
-                    <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-                        {{ post.title }}
-                    </a>
-                    <small class="post-date">{{ post.date | date_to_string }}</small>
-                </li>
-            {% endfor %}
-        </ul>
-    {% endfor %}
-</div>
+{% endfor %}

@@ -3,7 +3,8 @@ body {
 }
 
 pre, .well {
-    border-color: #e8e8e8;
+    background: $gray-lightest;
+    border-color: $gray-lighter;
     border-radius: 0;
     word-wrap: normal;
 }
@@ -16,7 +17,7 @@ h1 { font-size: $font-size-h1; }
 h2 { font-size: $font-size-h2; }
 h3 { font-size: $font-size-h3; }
 
-article {
+article, aside {
     h1, h2, h3, h4, h5, h6 {
         margin-top: 30px;
     }
@@ -25,9 +26,4 @@ article {
 i {
     color: $gray-dark;
     width: 20px;
-}
-
-hr {
-    border-top: 2px solid $gray-light;
-    margin: 20px 0;
 }

@@ -17,11 +17,8 @@ body {
 @media print, (min-width: 768px) {
     .pull-left-sm { float: left; }
     .pull-right-sm { float: right; }
-
     .text-left-sm { text-align: left; }
-
     .mb-sm-0 { margin-bottom: 0; }
-
     .absolute-sm { position: absolute; }
 }
 
@@ -35,26 +32,8 @@ body {
     .no-print { display: none; }
 }
 
-ul.tags {
-    display: inline-block;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    li {
-        display: inline-block;
-        padding: 0 2px;
-
-        &:first-child {
-            padding-left: 0;
-        }
-        &:last-child {
-            padding-right: 0;
-        }
-    }
-}
-
 @import 'layout/header';
 @import 'layout/footer';
+@import 'layout/sidebar';
 @import 'layout/post';
 @import 'layout/cv';

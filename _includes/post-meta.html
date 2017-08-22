@@ -18,25 +18,17 @@
     {% if page.categories %}
         <div>
             <i class="fa fa-folder-open"></i>
-            <ul class="tags">
-                {% for category in page.categories %}
-                    <li>
-                        <a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+            {% for category in page.categories %}
+                <a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>
+            {% endfor %}
         </div>
     {% endif %}
     {% if page.tags %}
         <div>
             <i class="fa fa-tag"></i>
-            <ul class="tags">
-                {% for tag in page.tags %}
-                    <li>
-                        <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+            {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
+            {% endfor %}
         </div>
     {% endif %}
 </div>
