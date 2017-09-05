@@ -1,8 +1,13 @@
+- company: Wellcome Trust
+  position:
+    - title: Senior Software Developer
+      start_date: August 2017
+      end_date: Present
 - company: World First
   position:
     - title: Senior Software Developer
       start_date: September 2016
-      end_date: Present
+      end_date: August 2017
     - title: Software Developer
       start_date: April 2014
       end_date: September 2016
