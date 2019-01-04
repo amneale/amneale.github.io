@@ -2,21 +2,25 @@
   skills:
     - PHP
     - JavaScript
+    - HTML
+    - CSS
 - type: Frameworks
   skills:
+    - Symfony 2/3/4
     - Zend Framework 1
-    - Symfony 2/3
 - type: Testing
   skills:
     - PHPUnit
     - PHPSpec
     - Behat
-- type: Other
+- type: Technology
   skills:
-    - Git
-    - Vagrant
-    - Ansible
     - Docker
-    - HTML5
-    - CSS3
+    - Vagrant
+    - Git
     - MySQL
+- type: AWS
+  skills:
+    - ECS
+    - ECR
+    - Route53
