@@ -1,0 +1,26 @@
+@media print {
+  .no-print { display: none; }
+
+  @page {
+    margin-top: 20px;
+  }
+
+  #cv {
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+
+    .contact a:after {
+      content: "";
+    }
+  }
+}
+
+@media print, (min-width: 768px) {
+  .pull-left-sm { float: left; }
+  .pull-right-sm { float: right; }
+  .text-left-sm { text-align: left; }
+  .mb-sm-0 { margin-bottom: 0; }
+  .absolute-sm { position: absolute; }
+}

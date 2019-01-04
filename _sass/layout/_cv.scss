@@ -58,22 +58,3 @@
         }
     }
 }
-
-@media print {
-    @page{
-        margin-top: 20px;
-    }
-
-    #cv {
-        border: 0;
-        box-shadow: none;
-        padding: 0;
-        margin: 0;
-
-        .contact {
-            a:link:after, a:visited:after {
-                content: "";
-            }
-        }
-    }
-}
