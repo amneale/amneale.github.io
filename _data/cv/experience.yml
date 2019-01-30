@@ -4,7 +4,7 @@
       start_date: August 2017
       end_date: Present
   summary: |
-    <p>Worked on a new science education platform built in-house, helping to release the first stage of the product before leading on both developing new features and reducing technical debt.</p>
+    <p>Worked on Explorify, an award winning science education platform built in-house, helping to release the first stage of the product before leading on both developing new features and reducing technical debt.</p>
     <p>Designed and built a Continuous Integration pipeline including adding unit and functional testing, code analysis metrics and building an artifact for release.
      Dockerised the application for both development and deployment purposes, and set up automated feature branch deployments to AWS, on code push.</p>
     <p>Lead on upgrading the application from Symfony 3.1 to Symfony 4.2.
