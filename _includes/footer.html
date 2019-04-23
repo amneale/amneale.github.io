@@ -9,6 +9,14 @@
                     </a>
                 </li>
             {% endif %}
+            {% if site.gitlab_username %}
+                <li>
+                    <i class="fa fa-gitlab"></i>
+                    <a href="https://gitlab.com/{{ site.gitlab_username }}" target="_blank">
+                        {{ site.gitlab_username }}
+                    </a>
+                </li>
+            {% endif %}
             {% if site.twitter_username %}
                 <li>
                     <i class="fa fa-twitter"></i>

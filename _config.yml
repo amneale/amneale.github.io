@@ -4,8 +4,8 @@ baseurl: ""
 url: "https://adam-neale.co.uk"
 
 author: amneale
-twitter_username: amneale
 github_username: amneale
+gitlab_username: amneale
 linkedin_username: amneale
 google_analytics: UA-19384655-2
 
