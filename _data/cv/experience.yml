@@ -1,8 +1,13 @@
+- company: Divido
+  position:
+    - title: Senior Engineer
+      start_date: March 2018
+      end_date: Present
 - company: Wellcome Trust
   position:
     - title: Senior Software Developer
       start_date: August 2017
-      end_date: Present
+      end_date: March 2018
   summary: |
     <p>Worked on Explorify, an award winning science education platform built in-house, helping to release the first stage of the product before leading on both developing new features and reducing technical debt.</p>
     <p>Designed and built a Continuous Integration pipeline including adding unit and functional testing, code analysis metrics and building an artifact for release.
