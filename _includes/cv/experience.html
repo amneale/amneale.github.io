@@ -5,19 +5,15 @@
             {% for experience in site.data.cv.experience %}
                 <li class="history-item">
                     <ul>
-                        {% for position in experience.position %}
-                            <li class="clearfix mb-10 mb-sm-0">
-                                <h4 class="pull-left-sm">
-                                    <strong>{{ position.title }}</strong>
-                                </h4>
-                                <div class="pull-right-sm">
-                                    {{ position.start_date }} &mdash; {{ position.end_date }}
-                                </div>
-                            </li>
-                        {% endfor %}
                         <li>
                             <h4>{{ experience.company }}</h4>
                         </li>
+                        {% for position in experience.position %}
+                            <li class="clearfix mb-10">
+                                <div><strong>{{ position.title }}</strong></div>
+                                <div>{{ position.start_date }} &mdash; {{ position.end_date }}</div>
+                            </li>
+                        {% endfor %}
                         {% if experience.summary %}
                             <li>{{ experience.summary }}</li>
                         {% endif %}

@@ -6,17 +6,31 @@
     - title: Senior/Lead Engineer
       start_date: March 2019
       end_date: June 2020
+  summary: |
+    <p>Led teams delivering multiple end-to-end integrations with large European banks, facilitating applications for
+     point of sale finance and repeat purchases for customers with an existing line of credit.</p>
+    <p>Worked to reinvigorate an ageing tech stack, while marshalling a sprawling set of microservices.
+     Identified and implemented a consistent approach to code-quality and testing, while creating long-term plans to
+     properly define domain boundaries and reduce overall complexity.
+     Moved business-critical services to more performant tech stack, isolating and rewriting core domain logic from
+     PHP into Go.</p>
+    <p>Worked with direct reports to build development plans, investing time in mentoring and growing the team to
+     ensure the success of individual goals and delivery of company-wide goals</p>
 - company: Wellcome Trust
   position:
     - title: Senior Software Developer
       start_date: August 2017
       end_date: March 2019
   summary: |
-    <p>Worked on Explorify, an award winning science education platform built in-house, helping to release the first stage of the product before leading on both developing new features and reducing technical debt.</p>
-    <p>Designed and built a Continuous Integration pipeline including adding unit and functional testing, code analysis metrics and building an artifact for release.
-     Dockerised the application for both development and deployment purposes, and set up automated feature branch deployments to AWS, on code push.</p>
-    <p>Lead on upgrading the application from Symfony 3.1 to Symfony 4.2.
-     Rebuilt mailing logic using a third party RESTful API, separated out this dependency from the main application and released it as an open source client library.</p>
+    <p>Worked on Explorify, an award winning science education platform built in-house,
+     helping to release the first stage of the product before leading on both developing new features
+     and reducing technical debt.</p>
+    <p>Designed and built a Continuous Integration pipeline including adding unit and functional testing,
+     code analysis metrics and building an artifact for release. Dockerised the application for both development
+     and deployment purposes, and set up automated feature branch deployments to AWS, on code push.</p>
+    <p>Lead on upgrading the application from Symfony 3.x to Symfony 4.x.
+     Rebuilt mailing logic using a third party RESTful API, separated out this dependency from the main
+     application and released it as an open source client library.</p>
 - company: World First
   position:
     - title: Senior Software Developer

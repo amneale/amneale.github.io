@@ -1,26 +1,24 @@
 - type: Programming Languages
   skills:
     - PHP
+    - Go
     - JavaScript
     - HTML
     - CSS
 - type: Frameworks
   skills:
-    - Symfony 2/3/4
-    - Zend Framework 1
+    - Symfony
+    - Zend Framework
+    - Chi
 - type: Testing
   skills:
     - PHPUnit
     - PHPSpec
-    - Behat
+    - Cucumber (Behat & Godog)
 - type: Technology
   skills:
     - Docker
-    - Vagrant
-    - Git
     - MySQL
-- type: AWS
-  skills:
-    - ECS
-    - ECR
-    - Route53
+    - Git
+    - Vagrant
+    - Amazon ECS/EKS & ECR
