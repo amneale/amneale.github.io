@@ -28,8 +28,8 @@
     <p>Designed and built a Continuous Integration pipeline including adding unit and functional testing,
      code analysis metrics and building an artifact for release. Dockerised the application for both development
      and deployment purposes, and set up automated feature branch deployments to AWS, on code push.</p>
-    <p>Lead on upgrading the application from Symfony 3.x to Symfony 4.x.
-     Rebuilt mailing logic using a third party RESTful API, separated out this dependency from the main
+    <p>Led on upgrading application framework from Symfony 3.x to Symfony 4.x.
+     Rebuilt mailing logic using a third party RESTful API; separated out this dependency from the main
      application and released it as an open source client library.</p>
 - company: World First
   position:
@@ -54,9 +54,10 @@
       start_date: July 2011
       end_date: April 2014
   summary: |
-    <p>Maintained and reskinned several existing core directory websites.</p>
-    <p>Created new link building application internally for the marketing team.</p>
-    <p>Built qualification checking and management tool, and in-depth profile statistics dashboard.</p>
+    <p>Maintained and reskinned several existing core professional directory websites.
+     Built qualification checking and management tool, and in-depth profile statistics dashboard.
+     Worked with designer to build several wordpress themes from provided images.
+     Created new link building application internally for the marketing team.</p>
 - company: Self-employed
   position:
     - title: Freelance Web Developer
