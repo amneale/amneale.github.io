@@ -9,7 +9,7 @@
   skills:
     - Symfony
     - Zend Framework
-    - Chi
+    - Slim Framework
 - type: Testing
   skills:
     - PHPUnit
@@ -20,5 +20,4 @@
     - Docker
     - MySQL
     - Git
-    - Vagrant
     - Amazon ECS/EKS & ECR

@@ -8,13 +8,11 @@
                         <li class="clearfix mb-10">
                             <h4 class="pull-left-sm">
                                 <strong>{{ education.title }}</strong>
+                                {{ education.establishment }}
                             </h4>
                             <div class="pull-right-sm">
                                 {{ education.start_date }} &mdash; {{ education.end_date }}
                             </div>
-                        </li>
-                        <li>
-                            <h4>{{ education.establishment }}</h4>
                         </li>
                         {% if education.summary %}
                             <li>{{ education.summary }}</li>

@@ -14,8 +14,10 @@
      properly define domain boundaries and reduce overall complexity.
      Moved business-critical services to more performant tech stack, isolating and rewriting core domain logic from
      PHP into Go.</p>
-    <p>Worked with direct reports to build development plans, investing time in mentoring and growing the team to
-     ensure the success of individual goals and delivery of company-wide goals</p>
+    <p>Created, hired for, and managed highly-effective development teams, which were able to deliver key integrations
+     contributing to company-wide goals. 
+    Invested time in mentoring and growing the teams, as well as working with direct reports to write effective
+     development plans and goals, helping them to progress in their careers.</p>
 - company: Wellcome Trust
   position:
     - title: Senior Software Developer
@@ -40,12 +42,11 @@
       start_date: April 2014
       end_date: September 2016
   summary: |
-    <p>Worked chiefly on the company's online trading platform, facilitating foreign exchange around the world.
+    <p>Contributed to the company's online trading platform, facilitating foreign exchange around the world.
      Heavily involved with decoupling the business logic driving the application from the implementation,
      allowing migration from Zend Framework 1 towards Symfony 3 while increasing test coverage of the application.</p>
-    <p>Also involved with moving towards a more service based approach, breaking out functionality that lies outside
-     of the core domain of the trading application to smaller more focused services,
-     and providing APIs from these for existing applications.</p>
+    <p>Started migration towards a more service based approach, breaking out functionality that lay outside
+     of the core domain of the trading application to smaller more focused services.</p>
     <p>Worked closely with Project Managers and Business Analysts to aid in defining business requirements,
      advising on technical solutions while minimising technical risk.</p>
 - company: Memiah
