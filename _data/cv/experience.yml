@@ -1,14 +1,20 @@
+- company: Monzo
+  position:
+    - title: Senior Software Engineer
+      start_date: September 2024
+      end_date: Present
 - company: Divido
   position:
     - title: Tech Lead
       start_date: June 2020
-      end_date: Present
+      end_date: July 2024
     - title: Senior/Lead Engineer
       start_date: March 2019
       end_date: June 2020
   summary: |
-    <p>Led teams delivering multiple end-to-end integrations with large European banks, facilitating applications for
-     point of sale finance and repeat purchases for customers with an existing line of credit.</p>
+    <p>Led teams delivering multiple end-to-end integrations with large European banks and well known retailers,
+     facilitating applications for point of sale finance and repeat purchases for customers with an existing line
+     of credit.</p>
     <p>Worked to reinvigorate an ageing tech stack, while marshalling a sprawling set of microservices.
      Identified and implemented a consistent approach to code-quality and testing, while creating long-term plans to
      properly define domain boundaries and reduce overall complexity.
